@@ -10,7 +10,7 @@ This repository is the official implementation of the paper "DFA3D: 3D Deformabl
 
 # TODO List
 - [ ] Release 3D Deformable Attention.
-- [ ] Release BEVFormer-DFA3D-PredDepth (-base & -small) and BEVFormer-DFA3D-GTDepth.
+- [ ] Release BEVFormer-DFA3D-PredDepth (-base & -small) and BEVFormer-DFA3D-GTDepth (including code and checkpoints).
 - [ ] Release 3D attention visualization tool.
 
 
@@ -20,21 +20,21 @@ Existing feature lifting approaches, such as Lift-Splat-based and 2D attention-b
 In contrast, our DFA3D-based method first leverages the estimated depth to expand each view's 2D feature map to 3D and then utilizes DFA3D to aggregate features from the expanded 3D feature maps. With the help of DFA3D, the depth ambiguity problem can be effectively alleviated from the root, and the lifted features can be progressively refined layer by layer, thanks to the Transformer-like architecture. In addition, we propose a mathematically equivalent implementation of DFA3D which can significantly improve its memory efficiency and computational speed. We integrate DFA3D into several methods that use 2D attention-based feature lifting with only a few modifications in code and evaluate on the nuScenes dataset. The experiment results show a consistent improvement of +1.41 mAP on average, and up to +15.1 mAP improvement when high-quality depth information is available, demonstrating the superiority, applicability, and huge potential of DFA3D.
 
 # Method
-## Comparison of feature lifting methods.
+## Comparisons of feature lifting methods.
 <img src="figures/Comparisons.png">
 
 
 ## Improvements.
 Our DFA3D brings consistent improvement on several methods, including two concurrent works ([DA-BEV](https://arxiv.org/abs/2302.13002)  and [Sparse4D](https://arxiv.org/abs/2211.10581)).
 
-<img src="figures/Main_results.png" style="zoom:31.5%">
+<img src="figures/Main_results.png" width="400px">
 
 Improving the quality of depth will bring further gains (up to 15.1% mAP).
 
-<img src="figures/Depth.png" style="zoom:31.5%">
+<img src="figures/Depth.png" width="400px">
 
-## How to transform you 2D Attention-based feature lifting into our 3D Deformable Attention-based one.
-Here, we take 2D Deformable Attention as an example, only a few modifications in code are required. For more details, please refer to our examples provided in Model Zoo.
+## How to transform your 2D Attention-based feature lifting into our 3D Deformable Attention-based one.
+Here, we take 2D Deformable Attention as an example, only a few modifications in code are required. For more details, please refer to our examples provided in Model Zoo (TODO).
 <img src="figures/Modifications.png">
 
 # Citation
