@@ -39,7 +39,12 @@ Here, we take 2D Deformable Attention as an example, only a few modifications in
 
 # Citation
 ```
-@inproceedings{
-  xxxxx
+@misc{li2023dfa3d,
+      title={DFA3D: 3D Deformable Attention For 2D-to-3D Feature Lifting}, 
+      author={Hongyang Li and Hao Zhang and Zhaoyang Zeng and Shilong Liu and Feng Li and Tianhe Ren and Lei Zhang},
+      year={2023},
+      eprint={2307.12972},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
 }
 ```
