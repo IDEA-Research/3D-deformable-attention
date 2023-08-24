@@ -16,7 +16,7 @@ This repository is the official implementation of the paper "DFA3D: 3D Deformabl
 - [x] Release 3D Deformable Attention.
 - [x] Release BEVFormer-DFA3D-PredDepth (-base & -small) and BEVFormer-DFA3D-GTDepth.
 - [ ] Add more comments.
-- [ ] Clear and release the code of "preparing depth map"
+- [ ] Format and release the code of "preparing depth map"
 - [ ] Release 3D attention visualization tool.
 
 
