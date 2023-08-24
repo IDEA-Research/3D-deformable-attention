@@ -9,7 +9,7 @@ This repository is the official implementation of the paper "DFA3D: 3D Deformabl
 # :fire: News
 [2023/7/15] Our paper is accepted by ICCV2023.
 
-[2023/8/24] We open-source our: 3D Deformable Attention (DFA3D) and also DFA3D-enabled BEVFormer.
+[2023/8/24] We opensource our 3D Deformable Attention (DFA3D) and also DFA3D-enabled BEVFormer.
 
 
 # :spiral_calendar: TODO List
@@ -39,10 +39,10 @@ Improving the quality of depth will bring further gains (up to 15.1% mAP).
 
 <img src="figures/Depth.png" width="400px">
 
-## How to transform you 2D Attention-based feature lifting into our 3D Deformable Attention-based one.
+## How to transform your 2D Attention-based feature lifting into our 3D Deformable Attention-based one.
 Here, we take 2D Deformable Attention as an example, only a few modifications in code are required. For more details, please refer to our examples provided in Model Zoo. 
 
-For more detail, please refer to our provided DFA3D-enabled BEVFormer.
+For more details, please refer to our provided DFA3D-enabled BEVFormer.
 <img src="figures/Modifications.png">
 
 # :rocket: Model Zoo
@@ -115,13 +115,13 @@ cd 3D-deformable-attention/
 ```
 2. Install Pytorch and torchvision.
 
-Follow the instruction on https://pytorch.org/get-started/locally/.
+Follow the instructions at https://pytorch.org/get-started/locally/.
 ```sh
 # an example:
 conda install -c pytorch pytorch torchvision
 ```
 
-3. Compiling and install 3D-Deformable-Attention.
+3. Compile and install 3D-Deformable-Attention.
 ```sh
 cd DFA3D
 bash setup.sh 0
