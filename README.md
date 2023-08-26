@@ -132,7 +132,7 @@ python unittest_DFA3D.py
 ## Run
 
 ### Prepare datasets
-Construct the dataset as in [BEVFormer](https://github.com/fundamentalvision/BEVFormer/blob/master/docs/prepare_dataset.md). And download our prepared [depth map](https://drive.google.com/file/d/1hWeNBnBYNkO1UDQTbR8zuozMRCFPx1h-/view?usp=sharing) (obtained by projecting single sweep lidar points on to the multi-view images), and unzip it at 
+Construct the dataset as in [BEVFormer](https://github.com/fundamentalvision/BEVFormer/blob/master/docs/prepare_dataset.md). And download our prepared [depth map](https://drive.google.com/file/d/1C0lYFU1Wu2fVOjC-YcUBThS5rf4ehieR/view?usp=share_link) (obtained by projecting single sweep lidar points on to the multi-view images), and unzip it at 
 ```
 ./data/nuscenes/depth_gt/
 ```
