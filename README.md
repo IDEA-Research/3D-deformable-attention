@@ -71,7 +71,7 @@ We denote 2D Deformable Attention and our 3D Deformable Attention as DFA2D and D
     <tr>
       <td>DFA3D-based</td>
       <td>43.2&nbsp/&nbsp53.2 <br>+1.6&nbsp/&nbsp+1.5</td>
-      <td><a href="xxx">config</a></td>
+      <td><a href="https://github.com/IDEA-Research/3D-deformable-attention/blob/main/BEVFormer_DFA3D/projects/configs/bevformer/bevformer_base_DFA3D.py">config</a></td>
       <td><a href="https://drive.google.com/file/d/1hWeNBnBYNkO1UDQTbR8zuozMRCFPx1h-/view?usp=sharing">model</a></td>
     </tr>
     <tr>
@@ -85,7 +85,7 @@ We denote 2D Deformable Attention and our 3D Deformable Attention as DFA2D and D
     <tr>
       <td>DFA3D-based</td>
       <td>40.3&nbsp/&nbsp50.9<br>+3.3&nbsp/&nbsp+3.0</td>
-      <td><a href="xxx">config</a></td>
+      <td><a href="https://github.com/IDEA-Research/3D-deformable-attention/blob/main/BEVFormer_DFA3D/projects/configs/bevformer/bevformer_small_DFA3D.py">config</a></td>
       <td><a href="https://drive.google.com/file/d/1wGFMSDDAU5cZ02KxYWIs_47xRel1694A/view?usp=sharing">model</a></td>
     </tr>
     <tr>
@@ -99,7 +99,7 @@ We denote 2D Deformable Attention and our 3D Deformable Attention as DFA2D and D
     <tr>
       <td>DFA3D-based</td>
       <td>57.6&nbsp/&nbsp63.6 <br>+16.0&nbsp/&nbsp+11.9</td>
-      <td><a href="xxx">config</a></td>
+      <td><a href="https://github.com/IDEA-Research/3D-deformable-attention/blob/main/BEVFormer_DFA3D/projects/configs/bevformer/bevformer_base_DFA3D_GTDpt.py">config</a></td>
       <td><a href="https://drive.google.com/file/d/1my_K-s2G0Pt4zqWAV0t6WvznXTvM8G6r/view?usp=share_link">model</a></td>
     </tr>
   </tbody>
