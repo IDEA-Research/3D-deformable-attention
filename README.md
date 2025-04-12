@@ -12,14 +12,6 @@ This repository is the official implementation of the paper "DFA3D: 3D Deformabl
 [2023/8/24] We opensource our 3D Deformable Attention (DFA3D) and also DFA3D-enabled BEVFormer.
 
 
-# :spiral_calendar: TODO List
-- [x] Release 3D Deformable Attention.
-- [x] Release BEVFormer-DFA3D-PredDepth (-base & -small) and BEVFormer-DFA3D-GTDepth.
-- [ ] Add more comments.
-- [ ] Format and release the code of "preparing depth map"
-- [ ] Release 3D attention visualization tool.
-
-
 # :scroll: Abstract
 In this paper, we propose a new operator, called 3D DeFormable Attention (DFA3D), for 2D-to-3D feature lifting, which transforms multi-view 2D image features into a unified 3D space for 3D object detection. 
 Existing feature lifting approaches, such as Lift-Splat-based and 2D attention-based, either use estimated depth to get pseudo LiDAR features and then splat them to a 3D space, which is a one-pass operation without feature refinement, or ignore depth and lift features by 2D attention mechanisms, which achieve finer semantics while suffering from a depth ambiguity problem. 
